@@ -1,12 +1,59 @@
-# Starter Next/Hardhat Project
+# Project Title
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Integration of React Frontend with Ethereum Smart Contract
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+This project demonstrates the integration of a React frontend with an Ethereum smart contract deployed on the blockchain. The smart contract includes basic functionalities for depositing, withdrawing, staking, and burning tokens, while the React frontend allows users to interact with these functionalities through MetaMask integration.
+
+## Getting Started
+
+### Prerequisites
+
+
+Follow these steps to set up and deploy the contract using Remix IDE:
+
+Ensure you have the following installed:
+
+Node.js
+npm (Node Package Manager)
+MetaMask extension for your browser.
+
+### Ethereum Smart Contract Deployment
+
+  1. Deploy the Assessment.sol smart contract on a test network like Rinkeby using Remix IDE or a similar development environment.
+
+  2. Note the deployed contract address (contractAddress) and the ABI (atm_abi) for configuring the React frontend.
+
+## Usage
+  1. Connect MetaMask to your desired Ethereum network.
+
+  2. Navigate to the deployed React application (http://localhost:3000) and connect your MetaMask wallet.
+
+  3. Interact with the smart contract:
+  View account information and current balance.
+  Deposit, withdraw, stake, and burn tokens using the respective buttons.
+
+## Functionality
+### Deposit
+Allows the contract owner to deposit Ether into the contract.
+
+### Withdraw
+Allows the contract owner to withdraw Ether from the contract.
+
+### Stake
+Allows the contract owner to stake Ether into the contract.
+
+### Burn
+Allows the contract owner to burn Ether from the contract.
+
+## Help
+
+For common issues or problems, you can refer to the Remix IDE documentation or check the console for error messages.
+
+## Authors
+
+Contributors names and contact info:
+
+Rahul Prasad
+(rahulprasad4653@gmail.com)
